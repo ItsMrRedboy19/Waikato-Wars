@@ -1,28 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NZ Map</title>
+  <title>Interactive Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
-    #map { height: 500px; width: 100%; }
+    #map { height: 880px; width: 100%; }
+    .popup-content {
+      max-height: 200px;
+      overflow-y: auto;
+      text-align: center;
+    }
+    .popup-content img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 <body>
   <div id="map"></div>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script>
-    const map = L.map('map').setView([-41.2865, 174.7762], 5);
+    const map = L.map('map', {
+      center: [-41.2865, 174.7762],
+      zoom: 6,
+      minZoom: 5,
+      maxZoom: 18,
+      maxBounds: [
+        [-30, 160.0],
+        [-50, 190.0]
+      ],
+      maxBoundsViscosity: 1.0
+    });
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    const cities = {
-      Wellington: { coords: [-41.2865, 174.7762], info: "Wellington is the capital city of NZ." },
-      Auckland: { coords: [-36.8485, 174.7633], info: "Auckland is known as the City of Sails." },
-      Christchurch: { coords: [-43.5321, 172.6362], info: "Christchurch is in the South Island." }
+    const battles = {
+      Wellington: {
+        coords: [-41.2865, 174.7762],
+        info: `<div class="popup-content">
+                <h3>Wellington</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/HekeFlagstaff.jpg/390px-HekeFlagstaff.jpg" alt="description" />
+                <p>Wellington is the capital city of New Zealand, known for its vibrant culture, windy weather, and stunning harbor views.</p>
+              </div>`
+      },
+      Auckland: {
+        coords: [-36.8485, 174.7633],
+        info: `<div class="popup-content">
+                <h3>Auckland</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Waireka.jpg/350px-Waireka.jpg" alt="Auckland">
+                <p>Auckland is known as the City of Sails, famous for its harbors, bustling urban life, and volcanic cones.</p>
+              </div>`
+      },
+      Christchurch: {
+        coords: [-43.5321, 172.6362],
+        info: `<div class="popup-content">
+                <h3>Christchurch</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Von_Tempsky%27s_death_Kennett_Watkins.jpg/1200px-Von_Tempsky%27s_death_Kennett_Watkins.jpg" alt="Christchurch">
+                <p>Christchurch is in the South Island, celebrated for its innovative architecture, gardens, and English heritage.</p>
+              </div>`
+      }
     };
 
-    Object.keys(cities).forEach(city => {
-      const marker = L.marker(cities[city].coords).addTo(map);
-      marker.bindPopup(`<b>${city}</b><br>${cities[city].info}`);
+    Object.keys(battles).forEach(battle => {
+      const marker = L.marker(battles[battle].coords).addTo(map);
+      marker.bindPopup(battles[battle].info);
     });
   </script>
 </body>
