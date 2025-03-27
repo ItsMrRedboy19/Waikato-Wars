@@ -1,77 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>New Zealand Land Wars Interactive Map</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <style>
-    #map { height: 880px; width: 100%; }
-    .popup-content {
-      max-height: 200px;
-      overflow-y: auto;
-      text-align: center;
-    }
-    .popup-content img {
-      width: 100%;
-      height: auto;
-      margin-bottom: 10px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>New Zealand Land Wars Interactive Map</h1>
-  </header>
-  <div id="map"></div>
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script>
-    const map = L.map('map', {
-      center: [-41.2865, 174.7762],
-      zoom: 6,
-      minZoom: 5,
-      maxZoom: 18,
-      maxBounds: [
-        [-30, 160.0],
-        [-50, 190.0]
-      ],
-      maxBoundsViscosity: 1.0
-    });
+  <head>
+    <title>New Zealand Land Wars Interactive Map</title>
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    <!-- Import Leaflet library CSS for styling the map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
-    const battles = {
-      Wellington: {
-        coords: [-41.2865, 174.7762],
-        info: `<div class="popup-content">
-                <h3>Wellington</h3>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/HekeFlagstaff.jpg/390px-HekeFlagstaff.jpg" alt="description" />
-                <p>Wellington is the capital city of New Zealand, known for its vibrant culture, windy weather, and stunning harbor views.</p>
-              </div>`
-      },
-      Auckland: {
-        coords: [-36.8485, 174.7633],
-        info: `<div class="popup-content">
-                <h3>Auckland</h3>
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Waireka.jpg/350px-Waireka.jpg" alt="Auckland">
-                <p>Auckland is known as the City of Sails, famous for its harbors, bustling urban life, and volcanic cones.</p>
-              </div>`
-      },
-      Christchurch: {
-        coords: [-43.5321, 172.6362],
-        info: `<div class="popup-content">
-                <h3>Christchurch</h3>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Von_Tempsky%27s_death_Kennett_Watkins.jpg/1200px-Von_Tempsky%27s_death_Kennett_Watkins.jpg" alt="Christchurch">
-                <p>Christchurch is in the South Island, celebrated for its innovative architecture, gardens, and English heritage.</p>
-              </div>`
+    <style>
+      /* Define dimensions for the map element */
+      #map {
+        height: 880px;
+        width: 100%;
       }
-    };
 
-    Object.keys(battles).forEach(battle => {
-      const marker = L.marker(battles[battle].coords).addTo(map);
-      marker.bindPopup(battles[battle].info);
-    });
-  </script>
-  <footer>
-    <h3>Sources:</h3>
-  </footer>
-</body>
+      /* Style for popup content in map markers */
+      .popup-content {
+        max-height: 200px;
+        overflow-y: auto;
+        text-align: center;
+      }
+
+      /* Style images inside the popup */
+      .popup-content img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Page Header -->
+    <header>
+      <h1>New Zealand Land Wars Interactive Map</h1>
+    </header>
+
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <!-- Import the JavaScript file containing the 'battles' object -->
+    <script src="battles.js"></script>
+
+    <!-- Import Leaflet library JavaScript for creating the map -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script>
+      // Initialize the map with settings for center, zoom, and constraints
+      const map = L.map("map", {
+        center: [-41.2865, 174.7762], // Center of the map (Wellington)
+        zoom: 6, // Initial zoom level
+        minZoom: 5, // Minimum zoom level to prevent excessive zooming out
+        maxZoom: 18, // Maximum zoom level for close-up details
+        maxBounds: [
+          [-30, 160.0], // Northern and western boundary
+          [-50, 190.0], // Southern and eastern boundary
+        ],
+        maxBoundsViscosity: 10, // Ensures the map "bounces back" when panned beyond bounds
+      });
+
+      // Add OpenStreetMap tiles to the map
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
+
+      // Iterate over the 'battles' object and create map markers for each location
+      Object.keys(battles).forEach((battle) => {
+        const marker = L.marker(battles[battle].coords).addTo(map); // Add marker to the map
+        marker.bindPopup(battles[battle].info); // Bind popup with battle information
+      });
+    </script>
+
+    <!-- Page Footer -->
+    <footer>
+      <h3>Sources:</h3>
+    </footer>
+  </body>
 </html>
