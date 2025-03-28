@@ -1,26 +1,47 @@
 const battles = {
-    Wellington: {
-        coords: [-41.2865, 174.7762],
-        info: `<div class="popup-content">
-                <h3>Wellington</h3>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/HekeFlagstaff.jpg/390px-HekeFlagstaff.jpg" alt="description" />
-                <p>Wellington is the capital city of New Zealand, known for its vibrant culture, windy weather, and stunning harbor views.</p>
-            </div>`
-    },
-    Auckland: {
-        coords: [-36.8485, 174.7633],
-        info: `<div class="popup-content">
-                <h3>Auckland</h3>
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Waireka.jpg/350px-Waireka.jpg" alt="Auckland">
-                <p>Auckland is known as the City of Sails, famous for its harbors, bustling urban life, and volcanic cones.</p>
-            </div>`
-    },
-    Christchurch: {
-        coords: [-43.5321, 172.6362],
-        info: `<div class="popup-content">
-                <h3>Christchurch</h3>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Von_Tempsky%27s_death_Kennett_Watkins.jpg/1200px-Von_Tempsky%27s_death_Kennett_Watkins.jpg" alt="Christchurch">
-                <p>Christchurch is in the South Island, celebrated for its innovative architecture, gardens, and English heritage.</p>
-            </div>`
-    }
+  Kororareka: {
+    coords: [-35.263642903151045, 174.12197907166885],
+    info: `<div class="popup-content">
+            <h3>Flagpole Cut Down</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/HekeFlagstaff.jpg/390px-HekeFlagstaff.jpg" alt="Russell" />
+            <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/HekeFlagstaff.jpg/390px-HekeFlagstaff.jpg">Source: Wikimedia Commons</a>
+            <p>placeholder</p>
+        </div>`
+  },
+  Puketutu: {
+    coords: [-35.33873644832787, 173.8173143049554],
+    info: `<div class="popup-content">
+            <h3>Battle of Puketutu</h3>
+            <img src="https://teara.govt.nz/files/36898-atl.jpg" alt="Battle of Puketutu">
+            <a href="https://teara.govt.nz/files/36898-atl.jpg">Source: Te Ara Encyclopedia</a>
+            <p>placeholder</p>
+        </div>`
+  },
+  Ohaeawai: {
+    coords: [-35.37555258686437, 173.85538167222242],
+    info: `<div class="popup-content">
+            <h3>Battle of Ohaeawai</h3>
+            <img src="https://nzhistory.govt.nz/sites/default/files/styles/wide/public/images/ohaeawai-pa.jpg?itok=4gH524M0" alt="Battle of Ohaeawai">
+            <a href="https://nzhistory.govt.nz/sites/default/files/styles/wide/public/images/ohaeawai-pa.jpg?itok=4gH524M0">Source: NZ History</a>
+            <p>placeholder</p>
+        </div>`
+  },
+  Ruapekapeka: {
+    coords: [-35.456389, 174.143611],
+    info: `<div class="popup-content">
+            <h3>Battle of Ruapekapeka</h3>
+            <img src="https://static.wixstatic.com/media/836e27_0d85ba0cf76a49c68948a4de47acbf98~mv2.png/v1/fill/w_740,h_457,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/836e27_0d85ba0cf76a49c68948a4de47acbf98~mv2.png" alt="Battle of Ruapekapeka">
+            <a href="https://static.wixstatic.com/media/836e27_0d85ba0cf76a49c68948a4de47acbf98~mv2.png/v1/fill/w_740,h_457,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/836e27_0d85ba0cf76a49c68948a4de47acbf98~mv2.png">Source: Royal Marines History</a>
+            <p>placeholder</p>
+        </div>`
+  },   
+  Te_Kohia: {
+    coords: [-39.06578745714039, 174.26363612230682],
+    info: `<div class="popup-content">
+            <h3>Battle of Te Kohia</h3>
+            <img src="temp" alt="Battle of Te Kohia">
+            <a href="temp">Source: temp</a>
+            <p>placeholder</p>
+        </div>`
+},   
 };
