@@ -52,5 +52,68 @@ const battles = {
               <a href="https://nzhistory.govt.nz/sites/default/files/styles/nzhistory_thumbnail_portrait/public/images/taranaki-war-icon.jpg">Source: NZ History</a>
               <p>placeholder</p>
           </div>`
+    },
+    Meremere: {
+      coords: [-37.314581453444646, 175.06959442482025],
+      info: `<div class="popup-content">
+              <h3>Withdraw from Meremere Pā</h3>
+              <img src="https://thumbnailer.digitalnz.org/?resize=770x&src=https%3A%2F%2Fteara.govt.nz%2Ffiles%2Fp14694atl.jpg&resize=368%253E" alt="Withdraw from Meremere Pa">
+              <a href="https://thumbnailer.digitalnz.org/?resize=770x&src=https%3A%2F%2Fteara.govt.nz%2Ffiles%2Fp14694atl.jpg&resize=368%253E">Source: DigitalNZ</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Rangiriri: {
+      coords: [-37.42724554117184, 175.1294155082313],
+      info: `<div class="popup-content">
+              <h3>Battle of Rangiriri</h3>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/The_repulse_of_the_royal_navy_storming_party_rangiriri_pa.jpg" alt="Battle of Rangiriri">
+              <a href="https://upload.wikimedia.org/wikipedia/commons/a/a2/The_repulse_of_the_royal_navy_storming_party_rangiriri_pa.jpg">Source: Wikipedia</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Ngaruawahia: {
+      coords: [-37.66842602, 175.14693170],
+      info: `<div class="popup-content">
+              <h3>Battle of Ngāruawāhia</h3>
+              <img src="https://teara.govt.nz/files/36919-ap.jpg" alt="Battle of Ngaruawahia">
+              <a href="https://teara.govt.nz/files/36919-ap.jpg">Source: Te Ara Encyclopedia</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Rangiaowhia: {
+      coords: [-38.01716252, 175.37891040],
+      info: `<div class="popup-content">
+              <h3>The Fight at Rangiaowhia</h3>
+              <img src="https://nzhistory.govt.nz/sites/default/files/styles/wide/public/images/waikato-wars-2.jpg?itok=CwI5IEWw" alt="The Fight at Rangiaowhia">
+              <a href="https://nzhistory.govt.nz/sites/default/files/styles/wide/public/images/waikato-wars-2.jpg?itok=CwI5IEWw">Source: NZ History</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Orakau: {
+      coords: [-38.04752343, 175.39141150],
+      info: `<div class="popup-content">
+              <h3>Battle of Ōrākau</h3>
+              <img src="https://thumbnailer.digitalnz.org/?src=http%3A%2F%2Fwww.nzhistory.net.nz%2Ffiles%2Fstyles%2Ffullsize%2Fpublic%2Fimages%2Fwaikato-wars-5.jpg%3Fitok%3DEMVCa9jG&resize=368%253E" alt="Battle of Orakau">
+              <a href="https://thumbnailer.digitalnz.org/?src=http%3A%2F%2Fwww.nzhistory.net.nz%2Ffiles%2Fstyles%2Ffullsize%2Fpublic%2Fimages%2Fwaikato-wars-5.jpg%3Fitok%3DEMVCa9jG&resize=368%253E">Source: Digital NZ</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Gate_Pa: {
+      coords: [-37.716, 176.139],
+      info: `<div class="popup-content">
+              <h3>Battle of Gate Pā</h3>
+              <img src="https://waateanews.com/wp-content/uploads/2021/08/BattleRangiriri.1.jpg" alt="Battle of Gate Pa">
+              <a href="https://waateanews.com/wp-content/uploads/2021/08/BattleRangiriri.1.jpg">Source: Waatea News</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Te_Ranga: {
+      coords: [-37.76804250660129, 176.11145815640364],
+      info: `<div class="popup-content">
+              <h3>Battle of Te Ranga</h3>
+              <img src="https://waateanews.com/wp-content/uploads/2021/08/battle-rangiriri-2.1.jpg" alt="Battle of Te Ranga">
+              <a href="https://waateanews.com/wp-content/uploads/2021/08/battle-rangiriri-2.1.jpg">Source: Waatea News</a>
+              <p>placeholder</p>
+          </div>`
     },    
   };
