@@ -115,5 +115,32 @@ const battles = {
               <a href="https://waateanews.com/wp-content/uploads/2021/08/battle-rangiriri-2.1.jpg">Source: Waatea News</a>
               <p>placeholder</p>
           </div>`
+    },
+    Ketemarae: {
+      coords: [-39.5561843768706, 174.28615401249803],
+      info: `<div class="popup-content">
+              <h3>Incident of Ketemarae</h3>
+              <img src="https://nzhistory.govt.nz/sites/default/files/june-09-1868-titokowaru-war_1.jpg" alt="Incident of Ketemarae">
+              <a href="https://nzhistory.govt.nz/sites/default/files/june-09-1868-titokowaru-war_1.jpg">Source: NZ History</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Te_Ngutu_O_Te_Manu: {
+      coords: [-39.485685206381405, 174.18380501584102],
+      info: `<div class="popup-content">
+              <h3>Battle of Te Ngutu o Te Manu</h3>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Turuturumokai_redoubt_taranaki.jpg/500px-Turuturumokai_redoubt_taranaki.jpg" alt="Battle of Te Ngutu o Te Manu">
+              <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Turuturumokai_redoubt_taranaki.jpg/500px-Turuturumokai_redoubt_taranaki.jpg">Source: Wikipedia</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Moturoa: {
+      coords: [-39.76525910895582, 174.63106236849015],
+      info: `<div class="popup-content">
+              <h3>Battle of Moturoa</h3>
+              <img src="https://nzhistory.govt.nz/sites/default/files/images/battle-moturoa-map.jpg" alt="Battle of Moturoa">
+              <a href="https://nzhistory.govt.nz/sites/default/files/images/battle-moturoa-map.jpg">Source: NZ History</a>
+              <p>placeholder</p>
+          </div>`
     },    
   };
