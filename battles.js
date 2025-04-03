@@ -152,15 +152,6 @@ const battles = {
               <p>placeholder</p>
           </div>`
     },
-    Chatham: {
-      coords: [-43.79022823, -176.30878540],
-      info: `<div class="popup-content">
-              <h3>Exile to the Chatham Islands</h3>
-              <img src="https://teara.govt.nz/files/p2322atl.jpg" alt="Exile to the Chatham Islands">
-              <a href="https://teara.govt.nz/files/p2322atl.jpg">Source: Te Ara Encyclopedia</a>
-              <p>placeholder</p>
-          </div>`
-    },
     Whareongaonga: {
       coords: [-38.86074443, 177.90951500],
       info: `<div class="popup-content">
