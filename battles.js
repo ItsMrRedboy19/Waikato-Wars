@@ -151,5 +151,59 @@ const battles = {
               <a href="https://upload.wikimedia.org/wikipedia/commons/0/0d/Plan_of_tauranga_ika_pa.jpg">Source: Wikipedia</a>
               <p>placeholder</p>
           </div>`
+    },
+    Chatham: {
+      coords: [-43.79022823, -176.30878540],
+      info: `<div class="popup-content">
+              <h3>Exile to the Chatham Islands</h3>
+              <img src="https://teara.govt.nz/files/p2322atl.jpg" alt="Exile to the Chatham Islands">
+              <a href="https://teara.govt.nz/files/p2322atl.jpg">Source: Te Ara Encyclopedia</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Whareongaonga: {
+      coords: [-38.86074443, 177.90951500],
+      info: `<div class="popup-content">
+              <h3>Lands in Whareongaonga</h3>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Te_Kooti%27s_War%CB%90_Fight_of_Paparatu_in_1865_%28Battles_of_the_nineteenth_century%2C_1901%29.jpg/250px-Te_Kooti%27s_War%CB%90_Fight_of_Paparatu_in_1865_%28Battles_of_the_nineteenth_century%2C_1901%29.jpg" alt="Lands in Whareongaonga">
+              <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Te_Kooti%27s_War%CB%90_Fight_of_Paparatu_in_1865_%28Battles_of_the_nineteenth_century%2C_1901%29.jpg/250px-Te_Kooti%27s_War%CB%90_Fight_of_Paparatu_in_1865_%28Battles_of_the_nineteenth_century%2C_1901%29.jpg">Source: Wikipedia</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Matawhero: {
+      coords: [-38.65325908182853, 177.9414573993373],
+      info: `<div class="popup-content">
+              <h3>Matawhero Raid</h3>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Te_Kooti%27s_War%CB%90_Poverty_Bay_Massacre_%28Battles_of_the_nineteenth_century%2C_1901%29.jpg/220px-Te_Kooti%27s_War%CB%90_Poverty_Bay_Massacre_%28Battles_of_the_nineteenth_century%2C_1901%29.jpg" alt="Matawhero Raid">
+              <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Te_Kooti%27s_War%CB%90_Poverty_Bay_Massacre_%28Battles_of_the_nineteenth_century%2C_1901%29.jpg/220px-Te_Kooti%27s_War%CB%90_Poverty_Bay_Massacre_%28Battles_of_the_nineteenth_century%2C_1901%29.jpg">Source: Wikipedia</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Ngatapa: {
+      coords: [-38.585707417295765, 177.79321207140228],
+      info: `<div class="popup-content">
+              <h3>Siege of Ngatapa</h3>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Plan_of_ngatapa_pa.jpg/220px-Plan_of_ngatapa_pa.jpg" alt="Siege of Ngatapa">
+              <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Plan_of_ngatapa_pa.jpg/220px-Plan_of_ngatapa_pa.jpg">Source: Wikipedia</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Urewera: {
+      coords: [-38.53484774812494, 177.03410918719462],
+      info: `<div class="popup-content">
+              <h3>Invasion of Urewera</h3>
+              <img src="https://nzhistory.govt.nz/sites/default/files/may-06-1869-colonial-troops-urewera.jpg" alt="Invasion of Urewera">
+              <a href="https://nzhistory.govt.nz/sites/default/files/may-06-1869-colonial-troops-urewera.jpg">Source: NZ History</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Te_Porere: {
+      coords: [-39.03972973544591, 175.60638464009537],
+      info: `<div class="popup-content">
+              <h3>Battle of Te Pōrere</h3>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lower_redoubt_at_Te_Porere.jpg/220px-Lower_redoubt_at_Te_Porere.jpg" alt="Battle of Te Pōrere">
+              <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lower_redoubt_at_Te_Porere.jpg/220px-Lower_redoubt_at_Te_Porere.jpg">Source: Wikipedia</a>
+              <p>placeholder</p>
+          </div>`
     },    
   };
