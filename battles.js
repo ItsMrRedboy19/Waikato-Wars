@@ -142,5 +142,14 @@ const battles = {
               <a href="https://nzhistory.govt.nz/sites/default/files/images/battle-moturoa-map.jpg">Source: NZ History</a>
               <p>placeholder</p>
           </div>`
+    },
+    Taurangaika: {
+      coords: [-39.81275028847944, 174.7930144311309],
+      info: `<div class="popup-content">
+              <h3>Battle of Taurangaika</h3>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Plan_of_tauranga_ika_pa.jpg" alt="Battle of Taurangaika">
+              <a href="https://upload.wikimedia.org/wikipedia/commons/0/0d/Plan_of_tauranga_ika_pa.jpg">Source: Wikipedia</a>
+              <p>placeholder</p>
+          </div>`
     },    
   };
