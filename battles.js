@@ -1,4 +1,13 @@
 const battles = {
+    Wairau: {
+      coords: [-41.427844312794825, 173.9591706976383],
+      info: `<div class="popup-content">
+              <h3>The Wairau Affray</h3>
+              <img src="https://images.ctfassets.net/pwv49hug9jad/2XmxtFHG8QPNoT4SgQ3gfO/2ed48a0dcac6fbecb40a2af2adb80e0c/wairau-april-1851-atl-744-2020.jpg?fm=webp" alt="Wairau" />
+              <a href="https://images.ctfassets.net/pwv49hug9jad/2XmxtFHG8QPNoT4SgQ3gfO/2ed48a0dcac6fbecb40a2af2adb80e0c/wairau-april-1851-atl-744-2020.jpg?fm=webp">Source: National Library of New Zealand</a>
+              <p>placeholder</p>
+          </div>`
+    },
     Kororareka: {
       coords: [-35.263642903151045, 174.12197907166885],
       info: `<div class="popup-content">
@@ -32,6 +41,15 @@ const battles = {
               <h3>Battle of Ruapekapeka</h3>
               <img src="https://static.wixstatic.com/media/836e27_0d85ba0cf76a49c68948a4de47acbf98~mv2.png/v1/fill/w_740,h_457,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/836e27_0d85ba0cf76a49c68948a4de47acbf98~mv2.png" alt="Battle of Ruapekapeka">
               <a href="https://static.wixstatic.com/media/836e27_0d85ba0cf76a49c68948a4de47acbf98~mv2.png/v1/fill/w_740,h_457,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/836e27_0d85ba0cf76a49c68948a4de47acbf98~mv2.png">Source: Royal Marines History</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Battle_Hill: {
+      coords: [-41.051978, 174.93747],
+      info: `<div class="popup-content">
+              <h3>Battle of Battle Hill</h3>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_fight_at_Battle_Hill%2C_Horokiwi%2C_6th_August%2C_1846%2C_oil_on_canvas_by_George_Hyde_Page.jpg/300px-The_fight_at_Battle_Hill%2C_Horokiwi%2C_6th_August%2C_1846%2C_oil_on_canvas_by_George_Hyde_Page.jpg" alt="Battle of Battle Hill">
+              <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_fight_at_Battle_Hill%2C_Horokiwi%2C_6th_August%2C_1846%2C_oil_on_canvas_by_George_Hyde_Page.jpg/300px-The_fight_at_Battle_Hill%2C_Horokiwi%2C_6th_August%2C_1846%2C_oil_on_canvas_by_George_Hyde_Page.jpg">Source: Wikipedia</a>
               <p>placeholder</p>
           </div>`
     },   
