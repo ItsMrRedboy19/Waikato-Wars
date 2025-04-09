@@ -134,6 +134,24 @@ const battles = {
               <p>placeholder</p>
           </div>`
     },
+    Sentry_Hill: {
+      coords: [-39.01992058450607, 174.1947286934386],
+      info: `<div class="popup-content">
+              <h3>Battle of Sentry Hill</h3>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Sentry_Hill_%28Taranaki%29_sketch.jpg" alt="Battle of Sentry Hill">
+              <a href="https://upload.wikimedia.org/wikipedia/commons/1/13/Sentry_Hill_%28Taranaki%29_sketch.jpg">Source: Wikipedia</a>
+              <p>placeholder</p>
+          </div>`
+    },
+    Waerenga_a_Hika: {
+      coords: [-38.59537380371775, 177.92641248351038],
+      info: `<div class="popup-content">
+              <h3>Siege of Waerenga-a-Hika</h3>
+              <img src="https://media.rnztools.nz/rnz/image/upload/s--5PKeOM9N--/c_scale,f_auto,q_auto,w_1050/v1643425111/4P5OZAP_copyright_image_53320?_a=BACCd2AD" alt="Seige of Waerenga a Hika">
+              <a href="https://media.rnztools.nz/rnz/image/upload/s--5PKeOM9N--/c_scale,f_auto,q_auto,w_1050/v1643425111/4P5OZAP_copyright_image_53320?_a=BACCd2AD">Source: RNZ News</a>
+              <p>placeholder</p>
+          </div>`
+    }, 
     Ketemarae: {
       coords: [-39.5561843768706, 174.28615401249803],
       info: `<div class="popup-content">
