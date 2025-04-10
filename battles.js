@@ -4,9 +4,9 @@ const battles = {
       info: `<div class="popup-content">
               <h3>The Wairau Affray</h3>
               <img src="https://images.ctfassets.net/pwv49hug9jad/2XmxtFHG8QPNoT4SgQ3gfO/2ed48a0dcac6fbecb40a2af2adb80e0c/wairau-april-1851-atl-744-2020.jpg?fm=webp" alt="Wairau" />
-              <a href="https://images.ctfassets.net/pwv49hug9jad/2XmxtFHG8QPNoT4SgQ3gfO/2ed48a0dcac6fbecb40a2af2adb80e0c/wairau-april-1851-atl-744-2020.jpg?fm=webp">Source: National Library of New Zealand</a>
-              <p>placeholder</p>
-          </div>`
+              <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/HekeFlagstaff.jpg/390px-HekeFlagstaff.jpg" style="display: block; margin-bottom: 15px;">Source: Wikimedia Commons</a>
+              <a href="detailed_battle_information/wairau.html" target="_blank" style="display: block; margin-bottom: 15px;">Learn more</a>
+            </div>`
     },
     Kororareka: {
       coords: [-35.263642903151045, 174.12197907166885],
