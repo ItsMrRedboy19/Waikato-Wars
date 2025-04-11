@@ -22,7 +22,7 @@ const battles = {
       info: `<div class="popup-content">
               <h3>Battle of Puketutu</h3>
               <img src="https://teara.govt.nz/files/36898-atl.jpg" alt="Battle of Puketutu">
-              <a href="https://teara.govt.nz/files/36898-atl.jpg">Source: Te Ara Encyclopedia</a>
+              <a href="https://teara.govt.nz/files/36898-atl.jpg" style="display: block; margin-bottom: 15px;">Source: Te Ara Encyclopedia</a>
               <a href="detailed_battle_information/puketutu.html" target="_blank" style="display: block; margin-bottom: 15px;">Learn more</a>
           </div>`
     },
