@@ -14,7 +14,7 @@ const battles = {
               <h3>Flagpole Cut Down</h3>
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/HekeFlagstaff.jpg/390px-HekeFlagstaff.jpg" alt="Russell" />
               <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/HekeFlagstaff.jpg/390px-HekeFlagstaff.jpg" style="display: block; margin-bottom: 15px;">Source: Wikimedia Commons</a>
-              <a href="detailed_battle_information/kororareka.html" target="_blank" style="display: block; margin-bottom: 15px;">Learn more</a>
+              <a href="#" onclick="openSidebar('detailed_battle_information/kororareka.html')">Learn more</a>
             </div>`
     },
     Puketutu: {

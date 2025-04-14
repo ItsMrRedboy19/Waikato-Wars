@@ -6,27 +6,8 @@
     <!-- Import Leaflet library CSS for styling the map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
-    <style>
-      /* Define dimensions for the map element */
-      #map {
-        height: 880px;
-        width: 100%;
-      }
+    <link rel="stylesheet" href="styles.css">
 
-      /* Style for popup content in map markers */
-      .popup-content {
-        max-height: 200px;
-        overflow-y: auto;
-        text-align: center;
-      }
-
-      /* Style images inside the popup */
-      .popup-content img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-      }
-    </style>
   </head>
   <body>
     <!-- Page Header -->
@@ -39,6 +20,12 @@
 
     <!-- Import the JavaScript file containing the 'battles' object -->
     <script src="battles.js"></script>
+
+    <div id="sidebar" class="sidebar">
+      <button onclick="closeSidebar()">Close</button>
+      <div id="sidebar-content"></div>
+    </div>
+    <script src="open_sidebar.js"></script>
 
     <!-- Import Leaflet library JavaScript for creating the map -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
