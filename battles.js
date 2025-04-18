@@ -68,7 +68,7 @@ const battles = {
               <h3>Battle of Puketakauere</h3>
               <img src="https://nzhistory.govt.nz/sites/default/files/styles/nzhistory_thumbnail_portrait/public/images/taranaki-war-icon.jpg" alt="Battle of Puketakauere">
               <a href="https://nzhistory.govt.nz/sites/default/files/styles/nzhistory_thumbnail_portrait/public/images/taranaki-war-icon.jpg" style="display: block; margin-bottom: 15px;">Source: NZ History</a>
-              <a href="#" onclick="openSidebar('detailed_battle_information/putekauere.html')">Learn more</a>
+              <a href="#" onclick="openSidebar('detailed_battle_information/puketakauere.html')">Learn more</a>
           </div>`
     },
     Meremere: {
