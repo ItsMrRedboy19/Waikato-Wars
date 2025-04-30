@@ -1,6 +1,8 @@
 /* styles.css */
 body {
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Sidebar Styling */
@@ -28,12 +30,6 @@ body {
 button {
   display: block;
   margin-bottom: 10px;
-}
-
-/* Define dimensions for the map element */
-#map {
-  height: 880px;
-  width: 100%;
 }
 
 /* Style for popup content in map markers */
@@ -72,43 +68,41 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Adjust map height */
-#map {
-  height: calc(
-    100vh - 120px
-  ); /* 100% viewport height minus header and footer */
-}
-
-/* Style for header */
+/* Simplify header and footer styling */
 header {
-  height: 60px; /* Specify header height */
+  height: 50px; /* Reduce header height */
   background-color: #f0f0f0;
-  padding: 10px;
+  padding: 5px; /* Minimize padding */
   text-align: center;
 }
 
-/* Style for footer */
 footer {
-  height: 40px; /* Specify footer height */
+  height: 30px; /* Reduce footer height */
   background-color: #f0f0f0;
   text-align: left;
-  padding: 10px;
-  position: relative;
+  padding: 5px;
 }
 
-/* Ensure body fills viewport */
+/* Body and HTML must still take up the full viewport height */
 html,
 body {
-  margin: 0;
-  padding: 4;
   height: 100vh; /* Full viewport height */
+  margin: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Stack elements vertically */
 }
 
-/* Adjust main content (map container) */
+/* Map should occupy the remaining space */
 #map {
-  flex: 1; /* Take up the remaining space between header and footer */
+  flex-grow: 1; /* Allow map to expand as much as possible */
+}
+
+/* Ensure the map container takes up the full viewport */
+#map {
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  margin: 0; /* Remove margin */
+  padding: 0;
 }
 
 /* Style the image */
@@ -128,4 +122,24 @@ main img {
   background-color: #f9f9f9; /* Optional: Light background for emphasis */
   border: 1px solid #ddd; /* Optional: Subtle border */
   border-radius: 5px; /* Optional: Rounded corners */
+}
+
+/* Style the summary box to appear below the map */
+.summary-box {
+  background-color: #f9f9f9; /* Light, soothing background */
+  border: 2px solid #ddd; /* Soft border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px; /* Padding inside the box */
+  margin: 20px auto; /* Center the summary box with auto margins */
+  font-family: "Arial", sans-serif; /* Eye-soothing font */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  line-height: 1.6; /* Comfortable line spacing */
+  color: #333; /* Relaxed text color */
+  max-width: 800px; /* Limit the width for readability */
+}
+
+
+h2 {
+  color: #000000; /* Accent color for headings */
+  font-family: "Georgia", serif; /* Complementary heading font */
 }
