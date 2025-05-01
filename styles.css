@@ -130,5 +130,4 @@ main img {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   line-height: 1.6; /* Comfortable spacing */
   color: #333; /* Relaxed text color */
-  height: 10vh; /* Let the height be 10% of the screen */
 }
