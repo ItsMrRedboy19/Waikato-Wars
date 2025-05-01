@@ -72,7 +72,7 @@ body {
 header {
   height: 50px; /* Reduce header height */
   background-color: #f0f0f0;
-  padding: 5px; /* Minimize padding */
+  padding: 15px; /* Minimize padding */
   text-align: center;
 }
 
@@ -80,7 +80,7 @@ footer {
   height: 30px; /* Reduce footer height */
   background-color: #f0f0f0;
   text-align: left;
-  padding: 5px;
+  padding: 15px;
 }
 
 /* Body and HTML must still take up the full viewport height */
@@ -92,17 +92,12 @@ body {
   flex-direction: column; /* Stack elements vertically */
 }
 
-/* Map should occupy the remaining space */
 #map {
-  flex-grow: 1; /* Allow map to expand as much as possible */
-}
-
-/* Ensure the map container takes up the full viewport */
-#map {
-  height: 100vh; /* Full viewport height */
-  width: 100%; /* Full width */
+  height: 80vh; /* Occupy 80% of the viewport height */
+  width: 100%; /* Full width of the container */
   margin: 0; /* Remove margin */
-  padding: 0;
+  padding: 0; /* Remove padding */
+  display: block;
 }
 
 /* Style the image */
@@ -124,22 +119,16 @@ main img {
   border-radius: 5px; /* Optional: Rounded corners */
 }
 
-/* Style the summary box to appear below the map */
+/* Summary box to appear after the map */
 .summary-box {
-  background-color: #f9f9f9; /* Light, soothing background */
+  background-color: #f9f9f9; /* Light background */
   border: 2px solid #ddd; /* Soft border */
   border-radius: 10px; /* Rounded corners */
   padding: 15px; /* Padding inside the box */
   margin: 20px auto; /* Center the summary box with auto margins */
-  font-family: "Arial", sans-serif; /* Eye-soothing font */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-  line-height: 1.6; /* Comfortable line spacing */
+  font-family: "Arial", sans-serif; /* Soothing font */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  line-height: 1.6; /* Comfortable spacing */
   color: #333; /* Relaxed text color */
-  max-width: 800px; /* Limit the width for readability */
-}
-
-
-h2 {
-  color: #000000; /* Accent color for headings */
-  font-family: "Georgia", serif; /* Complementary heading font */
+  height: 10vh; /* Let the height be 10% of the screen */
 }
